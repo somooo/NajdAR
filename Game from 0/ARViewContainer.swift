@@ -5,7 +5,7 @@
 //  Created by bsamh on 28/11/2023.
 //
 
-import Foundation
+/*import Foundation
 import SwiftUI
 import ARKit
 
@@ -31,4 +31,5 @@ class ARView: ARSCNView, ARSCNViewDelegate {
 
     // ARSCNViewDelegate methods
     // ...
-}
+}*/
+

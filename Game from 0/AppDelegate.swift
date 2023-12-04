@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Game from 0
+//  Test 11
 //
-//  Created by bsamh on 28/11/2023.
+//  Created by Muna Aiman Al-hajj on 08/05/1445 AH.
 //
 
 import UIKit
@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView()
+        let contentView = SplashScreen()
 
         // Use a UIHostingController as window root view controller.
         let window = UIWindow(frame: UIScreen.main.bounds)

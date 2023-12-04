@@ -11,7 +11,7 @@ import ARKit
 
 struct ARGameView: View {
     var body: some View {
-        ARViewContainer()
+        ContentView()
             .edgesIgnoringSafeArea(.all)
     }
 }

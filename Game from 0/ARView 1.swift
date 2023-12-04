@@ -1,11 +1,4 @@
-//
-//  ContentView.swift
-//  Game from 0
-//
-//  Created by bsamh on 28/11/2023.
-//
-
-import SwiftUI
+/*import SwiftUI
 import RealityKit
 
 struct ContentView: View {
@@ -37,4 +30,4 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
-}
+}*/
