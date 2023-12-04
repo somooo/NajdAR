@@ -8,8 +8,9 @@
 
 import Combine
 
-class GameViewModel: ObservableObject {
+class Game: ObservableObject {
     @Published var gameCode: String = ""
-    @Published var playerProgress: Int = 0
-    // Add more game-related properties and methods as needed
+    @Published var gameCreator: String = ""
+    @Published var playerID: String = ""
+    @Published var treasureCollected: Int = 0
 }

@@ -14,6 +14,12 @@
 		3582DCB52B15DB6B00832623 /* Game_from_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3582DCB42B15DB6B00832623 /* Game_from_0Tests.swift */; };
 		3582DCBF2B15DB6B00832623 /* Game_from_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3582DCBE2B15DB6B00832623 /* Game_from_0UITests.swift */; };
 		3582DCC12B15DB6B00832623 /* Game_from_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3582DCC02B15DB6B00832623 /* Game_from_0UITestsLaunchTests.swift */; };
+		3582DCD02B15E08500832623 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3582DCCF2B15E08500832623 /* GameViewModel.swift */; };
+		3582DCD42B15E15D00832623 /* GameCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3582DCD32B15E15D00832623 /* GameCodeGenerator.swift */; };
+		3582DCD62B15E18F00832623 /* GameProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3582DCD52B15E18F00832623 /* GameProgressView.swift */; };
+		3582DCD82B15E3A200832623 /* ARGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3582DCD72B15E3A200832623 /* ARGameView.swift */; };
+		3582DCDA2B15E54800832623 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3582DCD92B15E54800832623 /* ARViewContainer.swift */; };
+		3582DCDF2B1C675E00832623 /* JoinGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3582DCDE2B1C675E00832623 /* JoinGameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,13 @@
 		3582DCBA2B15DB6B00832623 /* Game from 0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Game from 0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3582DCBE2B15DB6B00832623 /* Game_from_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_from_0UITests.swift; sourceTree = "<group>"; };
 		3582DCC02B15DB6B00832623 /* Game_from_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_from_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3582DCCF2B15E08500832623 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		3582DCD32B15E15D00832623 /* GameCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCodeGenerator.swift; sourceTree = "<group>"; };
+		3582DCD52B15E18F00832623 /* GameProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProgressView.swift; sourceTree = "<group>"; };
+		3582DCD72B15E3A200832623 /* ARGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARGameView.swift; sourceTree = "<group>"; };
+		3582DCD92B15E54800832623 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		3582DCDB2B17C2FE00832623 /* Game from 0.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Game from 0.entitlements"; sourceTree = "<group>"; };
+		3582DCDE2B1C675E00832623 /* JoinGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinGameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +107,10 @@
 		3582DCA22B15DB6A00832623 /* Game from 0 */ = {
 			isa = PBXGroup;
 			children = (
+				3582DCDB2B17C2FE00832623 /* Game from 0.entitlements */,
 				3582DCA32B15DB6A00832623 /* AppDelegate.swift */,
-				3582DCA52B15DB6A00832623 /* ContentView.swift */,
+				3582DCD92B15E54800832623 /* ARViewContainer.swift */,
+				3582DCD32B15E15D00832623 /* GameCodeGenerator.swift */,
 				3582DCA72B15DB6B00832623 /* Assets.xcassets */,
 				3582DCA92B15DB6B00832623 /* Preview Content */,
 			);
@@ -105,6 +120,11 @@
 		3582DCA92B15DB6B00832623 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				3582DCA52B15DB6A00832623 /* ContentView.swift */,
+				3582DCD72B15E3A200832623 /* ARGameView.swift */,
+				3582DCCF2B15E08500832623 /* GameViewModel.swift */,
+				3582DCD52B15E18F00832623 /* GameProgressView.swift */,
+				3582DCDE2B1C675E00832623 /* JoinGameView.swift */,
 				3582DCAA2B15DB6B00832623 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -257,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3582DCD02B15E08500832623 /* GameViewModel.swift in Sources */,
+				3582DCD62B15E18F00832623 /* GameProgressView.swift in Sources */,
+				3582DCDF2B1C675E00832623 /* JoinGameView.swift in Sources */,
 				3582DCA62B15DB6A00832623 /* ContentView.swift in Sources */,
+				3582DCDA2B15E54800832623 /* ARViewContainer.swift in Sources */,
+				3582DCD42B15E15D00832623 /* GameCodeGenerator.swift in Sources */,
 				3582DCA42B15DB6A00832623 /* AppDelegate.swift in Sources */,
+				3582DCD82B15E3A200832623 /* ARGameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,9 +445,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Game from 0/Game from 0.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Game from 0/Preview Content\"";
+				DEVELOPMENT_TEAM = Y45AGL4RGX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -449,9 +477,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Game from 0/Game from 0.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Game from 0/Preview Content\"";
+				DEVELOPMENT_TEAM = Y45AGL4RGX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";

@@ -8,28 +8,28 @@
 import SwiftUI
 import RealityKit
 
-struct ContentView : View {
+struct ContentView: View {
     @StateObject private var gameViewModel = GameViewModel()
+
     var body: some View {
         NavigationView {
-                    VStack {
-                        ARGameView()
-                            .navigationBarTitle("")
+            VStack {
+                ARGameView()
+                    .navigationBarTitle("")
 
-                        NavigationLink(destination: GameProgressView(viewModel: gameViewModel)) {
-                            Text("View Game Progress")
-                                .padding()
-                        }
-                    }
-                }
-                .onAppear {
-                    // Generate a random game code when the game is created
-                    gameViewModel.gameCode = GameCodeGenerator.generateGameCode()
+                NavigationLink(destination: GameProgressView(Game: gameViewModel)) {
+                    Text("View Game Progress")
+                        .padding()
                 }
             }
         }
+        .onAppear {
+            // Generate a random game code when the game is created
+            gameViewModel.gameCode = GameCodeGenerator.generateGameCode()
+        }
+    }
+}
 
-        
 
 
 
